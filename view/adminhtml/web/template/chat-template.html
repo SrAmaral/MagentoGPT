@@ -1,0 +1,12 @@
+<div class="chat-button" data-bind="click: openChat"></div>
+<div class="chat-box" data-bind="visible: chatIsOpen">
+    <div class="chat-header">
+        <span class="name">Nome do usuário</span>
+        <p class="close-button" data-bind="click: closeChat"></p>
+    </div>
+    <div class="messages-board"></div>
+    <form class="chat-message">
+        <textarea id="message-writing" placeholder="Send a message." spellcheck="false"></textarea>
+        <a class="send-button" href="/" data-bind="click: sendChatMenssage"></a>
+    </form>
+</div>
