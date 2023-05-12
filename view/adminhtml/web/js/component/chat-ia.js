@@ -41,7 +41,7 @@ define([
                 }
                 const fetchConfig = {
                     method: 'POST',
-                    headers: {"Content-Type": "application/json", "Authorization": "Bearer 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"},
+                    headers: {"Content-Type": "application/json", "Authorization": "Bearer ..."},
                     body: JSON.stringify(bodyMessage)
                 };
                 setTimeout(() => {
